@@ -1,0 +1,161 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.bg{
+	background: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	margin-bottom: 0 !important;
+	padding: 15px;
+}
+
+.titulo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 9%;
+}
+
+.subtitulo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 3%;
+}
+
+.container-fluid .foto img{
+	vertical-align: top;
+	border-radius: 50%;
+	border: 5px solid rgba(255,240,19,0.7);
+}
+
+.colaborador{
+	width: 40%;
+	margin-top: 3%;
+}
+
+.nombre{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 10%;
+}
+
+.custom-nav-container{
+	padding: 0 !important;
+	margin:0!important;
+	/*background-color: rgba(255,255,255,0.5);*/
+}
+
+.descripcion{
+	padding: 0px 35px !important;
+}
+
+.boton{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px !important;
+	font-weight: 700;
+	margin-top: 3%;
+	background-color: rgba(255,255,255,0.2);
+	border: 2px solid rgba(255,255,255,0.5);
+	color: white;
+ 	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.boton:hover,
+.boton:focus {
+  background-color: rgba(255,255,255,0.5);
+  color: #000;
+}
+
+
+
+.logo{
+	padding: 8px 15px 0 0 !important;
+}
+
+
+ul.nav li a, ul.nav li a:visited {
+    color: #fff !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #FFF013 !important;
+}
+
+
+
+@media screen and (max-width: 1200px){
+	.colaborador{
+		width: 80%;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.titulo{
+		font-size: 45px;
+	}
+
+	.subtitulo{
+		font-size: 30px;
+		margin-top: 8%;
+	}
+
+	.boton{
+		padding: 10px 25px;
+		margin-top: 10%;
+	}
+
+	.colaborador{
+		width: 100%;
+		margin-top: 10%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.colaborador{
+		width: 100%;
+		margin-top: 10%;
+	}
+
+	.colaborador3{
+		margin-top: 10%;
+	}
+
+	.titulo{
+		font-size: 40px;
+	}
+
+	.subtitulo{
+		font-size: 20px;
+		margin-top: 10%;
+	}
+
+	.boton{
+		padding: 10px 25px;
+		margin-top: 10%;
+	}
+}
